@@ -1,0 +1,97 @@
+*{
+    font-family:'Poppins' , sans-serif ;
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-image: url(restoimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+    
+    
+}
+#nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 29px;
+}
+
+#list{
+    
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+#b1{
+padding: 12px 40px;
+background-color: rgb(236, 83, 75);
+border-radius: 3px;
+border: none;
+font-family: "Red Rose";
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+color: #ffffff;
+cursor: pointer;
+transition: all 0.1s ease-in-out;
+}
+#b1:hover{
+    transform: scale(1.1);
+}
+#b2{
+    font-family:'Roboto Condensed', sans-serif ;
+    background-color: rgb(236, 83, 75);
+    width: 185px;
+    height: 34px;
+    font-size: 20px;
+    margin: 40px auto;
+    border: none;
+    transition: all 0.1s ease-in-out;
+}
+#b2:hover{
+    transform: scale(1.1);
+
+}
+#im2{
+    float: right;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+flex-direction: column;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+font-style: normal;
+font-weight: 343px;
+font-size: 5em;
+line-height: 72px;
+color: #ffc233;
+text-align: center;
+font-weight: 900;
+margin-top: 122px;
+
+
+}
+
